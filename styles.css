@@ -114,3 +114,23 @@ footer.site .legal{border-top:1px solid #1a1f4a;margin-top:34px;padding-top:18px
 @media(max-width:760px){.sticky-cta{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:60;gap:8px;padding:10px;background:rgba(11,16,51,.97);border-top:1px solid #262d6b}
 .sticky-cta a{flex:1;text-align:center;padding:14px 8px;font-size:15px}.sticky-cta .btn.dark{background:#fff;color:var(--navy)}body{padding-bottom:76px}}
 .lpbar{background:#fff;border-bottom:1px solid var(--line)}.lpbar .wrap{display:flex;justify-content:space-between;align-items:center;height:68px;gap:12px}
+/* brand-27oct */
+:root{--ind:#3E3EFF;--ind2:#6b6bff;--indd:#2a2ad6;--acc:#FF3B10;--accd:#e02e06;--navy:#08081f;--navy2:#111133;--ink:#0b0b1a}
+body{font-family:Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,.disp,.trust .v,.fc .n,.lane b,footer.site h4,.step:before{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.025em}
+.logo img{height:40px;width:auto;display:block}@media(max-width:560px){.logo img{height:30px}}
+footer.site .logo img{height:44px}
+.btn{background:var(--acc);border-radius:999px;font-weight:800;letter-spacing:.01em}.btn:hover{background:var(--accd)}
+.btn.dark{background:var(--navy)}.btn.light{background:#fff;color:var(--ind)}.btn.wa{background:var(--wa)}
+form.f .btn{background:var(--acc)}
+.hero{background:radial-gradient(900px 480px at 88% -10%,rgba(62,62,255,.55),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(255,59,16,.22),transparent 60%),linear-gradient(160deg,#06061a 0%,#0e0e33 55%,#1a1a6b 100%)}
+.pagehead{background:radial-gradient(900px 400px at 90% -20%,rgba(62,62,255,.55),transparent 60%),linear-gradient(160deg,#06061a,#1a1a6b)}
+.hero h1 em{color:#ff8a6b}.kicker{background:rgba(255,59,16,.16);border-color:rgba(255,120,90,.55);color:#ffd3c7}
+.eyebrow{color:var(--acc)}section.dark .eyebrow,.pagehead .eyebrow{color:#ff8a6b!important}
+.panel{border-top:5px solid var(--acc);border-radius:20px}
+.sv .ic{background:linear-gradient(135deg,var(--ind),#7a5cff)}.sv:hover{border-color:var(--ind)}
+.band{background:linear-gradient(100deg,var(--ind),#5b3cff)}
+.step:before{background:var(--ind)}
+ul.ticks li:before{border-color:var(--acc)}
+.top{background:#06061a}.demo{background:#000}
+section.dark{background:#08081f}footer.site{background:#04040f}
